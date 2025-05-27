@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4f6ec4; /* Light gray background for contrast */
+}
+#timer-icon {
+    font-size: 60px; /* Size of the icon */
+    color: #020f03; /* Icon color */
+    margin-bottom: 20px; /* Space between icon and timer */
+    padding: 20px; /* Padding around the icon */    
+}
+#timer-container {
+    text-align: center;
+    background: #ffffff; /* White background for the timer */
+    padding: 40px; /* More padding for a spacious look */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    border: 2px solid #4CAF50; /* Stylish green border */
+    width: 500px; /* Fixed width for the timer container */
+}
+
+h1 {
+    font-size: 72px; /* Larger font size for visibility */
+    color: #333; /* Dark text color for better contrast */
+    margin: 0; /* Remove default margin */
+}
+h2{
+    color: purple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px; /* Slightly larger font size for the tag */
+    text-transform: capitalize;
+}
+button {
+    background-color: #4CAF50; /* Green background for buttons */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px 30px; /* Padding for larger buttons */
+    font-size: 24px; /* Larger font size for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin: 10px; /* Space between buttons */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+button:hover {
+    background-color: #1d291d; /* Darker green on hover */
+}
+
+button:focus {
+    outline: none; /* Remove focus outline */
+}
+button.stop {
+    background-color: #f44336; /* Red background for stop button */
+}
+button.resume {
+    background-color: #e78d18; /* Red background for stop button */
+}
